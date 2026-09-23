@@ -77,7 +77,7 @@ public class AddressBook {
     try {
         fileOutputStream = new FileOutputStream(outputFilename);
         for (Map.Entry<String, String> registro : agenda.entrySet()) {
-            String linea = registro.getKey() + " , " + registro.getValue() + "\n";
+            String linea = registro.getKey() + "," + registro.getValue() + "\n";
             fileOutputStream.write(linea.getBytes());
             }
             System.out.println("\nCambios guardados en el archivo correctamente.");
