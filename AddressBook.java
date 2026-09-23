@@ -72,7 +72,7 @@ public class AddressBook {
       }
     }
     public static void save() {
-    String outputFilename = "/home/conesh/Documents/Java/Agenda_telefonica/src/main/java/tecmilenio/agenda_telefonica/agenda.txt";
+    String outputFilename = "/home/conesh/Documents/Java/Agenda_telefonica/src/main/java/tecmilenio/agenda_telefonica/agenda.csv";
     FileOutputStream fileOutputStream = null;
     try {
         fileOutputStream = new FileOutputStream(outputFilename);
@@ -94,7 +94,7 @@ public class AddressBook {
         }
     }
     public static void load() {
-    String inputFilename = "/home/conesh/Documents/Java/Agenda_telefonica/src/main/java/tecmilenio/agenda_telefonica/agenda.txt";
+    String inputFilename = "/home/conesh/Documents/Java/Agenda_telefonica/src/main/java/tecmilenio/agenda_telefonica/agenda.csv";
     FileInputStream fileInputStream = null;
     Scanner lectorarchivo = null;
     try {
